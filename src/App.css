@@ -1,0 +1,49 @@
+*{
+  font-family: sans-serif;
+}
+.contains {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 30%;
+  height: 35rem;
+  background-color:#0578fc98;
+  margin: auto;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+color:rgb(255, 255, 255);
+
+}
+.ville{
+  font-size: 25px;
+  
+}
+.temperature{
+  font-size: 25px;
+
+}
+.vent{
+  font-size: 25px;
+}
+
+
+
+.input{
+  border-radius: 50px 50px;
+}
+.button{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
