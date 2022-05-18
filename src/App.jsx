@@ -4,7 +4,8 @@ import { useState } from 'react';
 
 
 
-const API_KEY ="2b4ee0aa4210b7c6399a4b01c468fc5d"
+const API_KEY = process.env.REACT_APP_API_KEY
+
 
 function App() {
   const [city, setCity] = useState("")
@@ -35,7 +36,7 @@ function App() {
         .catch(error => console.error(error));
   }
 
-
+  
   useEffect(()  => {
     navigator.geolocation.getCurrentPosition(
       (p) => setPosition ({
@@ -58,7 +59,7 @@ function App() {
         .catch(error => console.error(error));
 
     }
-  
+
 
   }, [position])
   return (
